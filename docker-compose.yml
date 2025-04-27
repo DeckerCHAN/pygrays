@@ -4,7 +4,9 @@ services:
     build: ./pygrays-api
     ports:
       - "8000:8000"
+    restart: on-failure
   web:
     build: ./pygrays-web
     ports:
       - "80:80"
+    restart: on-failure
