@@ -1,6 +1,8 @@
 [submodule "pygrays-web"]
 	path = pygrays-web
 	url = https://github.com/DeckerCHAN/pygrays-web
+	branch = master
 [submodule "pygrays-api"]
 	path = pygrays-api
 	url = https://github.com/DeckerCHAN/pygrays-api.git
+	branch = master
